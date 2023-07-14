@@ -39,7 +39,9 @@ elif birthMonth == 11:
     month = "November"
 elif birthMonth == 12:
     month = "December"
-else birthMonth
-    month = "Invalid month"
+#elif birthMonth >= 0 <= 13:
+    #month = "Invalid month"
+else:
+    print("Birth month must be a number from 1-12")
 
  

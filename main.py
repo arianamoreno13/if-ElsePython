@@ -1,5 +1,6 @@
-#Write an if-else program prompts a user to enter a birth month.  
-#If the value entered is greater than 12 or less than 1, display an error message; otherwise, display the valid month
+"""Module providingFunction printing python version."""
+#Write an if-else program prompts a user to enter a birth month.
+#If the value entered is greater than 12 or less than 1, display an error message; otherwise, display the valid month.
 BIRTH_MONTH = int(input("Please enter the month you were born."))
 if BIRTH_MONTH == 1:
     MONTH = "January"
@@ -27,3 +28,4 @@ elif BIRTH_MONTH == 12:
     MONTH = "December"
 else:
     print("Birth month must be a number from 1-12")
+    
